@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>登录</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    
+    h1 {
+      margin-top: 100px;
+    }
+    
+    form {
+      margin-top: 50px;
+    }
+    
+    input {
+      padding: 10px 20px;
+      margin-bottom: 20px;
+    }
+    
+    button {
+      background-color: #333;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>登录</h1>
+  
+  <form action="login.php" method="post">
+    <input type="text" name="username" placeholder="用户名" required><br>
+    <input type="password" name="password" placeholder="密码" required><br>
+    <button type="submit">登录</button>
+  </form>
+</body>
+</html>
